@@ -196,8 +196,10 @@ figure {
 }
 
 img {
-  vertical-align: middle;
-  border-style: none;
+
+   width: 100%;
+    height: auto;
+    aspect-ratio: attr(width) / attr(height);
 }
 
 svg {
